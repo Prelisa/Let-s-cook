@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    font-size: 62.5%;
+    height: 100%
+}
+
+h1{
+    font-size:2.5rem;
+}
+h2{
+    font-size: 4rem;
+}
+h3{
+    font-size:2rem;
+}
+a{
+    font-size: 2rem;
+}
+
+nav{
+    background-color:#3f957e;
+    height: 10rem;
+    padding: 3rem;
+    
+}
+.logo{
+    float:left;
+}
+
+nav ul{
+    float: right;
+    list-style: none;
+}
+nav li {
+    float: left;
+}
+li a{
+    margin:2rem;
+    color: white;
+    text-decoration: none;
+}
+
+.hero-section{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.31),rgba(0, 0, 0, 0.31)) ,url("pexels-ella-olsson-1640777%20(1).jpg");
+    background-size: cover;
+    height: 60rem;
+    background-position: center;
+    color:white;
+    text-align: center;
+    padding: 20rem 0rem;
+    text-shadow: 3px 3px 3px black;
+
+}
+.hero-section h3{
+    margin:3rem;
+    
+}
+
+.hero-section button{
+    padding:2rem 7rem;
+    border: none;
+    border-radius: 1rem;
+    background-color:#3f957e;
+    color:white;
+    font-size: 2rem;
+    cursor: pointer;
+    
+}
+.hero-section button:hover{
+    background-color: mediumaquamarine;
+        
+}
+
+.form-section{
+    text-align: center;
+    padding-top: 5rem;
+    background-color: #d0dbd8
+}
+
+.form-section h2{
+    margin-bottom: 5rem;
+}
+
+form label, form input, form textarea{
+    margin: 1rem auto;
+    display: block;
+}
+form label{
+    font-size: 2rem;
+
+}
+form input,form textarea{
+    width: 50%;
+
+}
+form input{
+    height: 4.5rem;
+    text-align: center;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    border: 0.1rem solid #e0dfdf;
+    margin-bottom: 2rem;
+}
+form textarea{
+    height:10rem;
+    text-align: center;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    border: 0.1rem solid #e0dfdf;
+    margin-bottom: 2rem;
+    padding-top:3.5rem;
+    
+}
+
+form button{
+    margin-bottom: 10rem;
+    padding:1.8rem 5rem;
+    width: 50%;
+    border:none;
+    border-radius: 1rem;
+    font-size:1.5rem;
+    background-color: #3f957e;
+}
+form button:hover{
+    background-color: mediumaquamarine
+}
